@@ -4,6 +4,8 @@ namespace GitÖvning
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("hej");
+
             var builder = WebApplication.CreateBuilder(args); //ammara ändrar
 
             // Add services to the container.
