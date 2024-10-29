@@ -15,7 +15,7 @@ namespace GitÖvning
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
-
+            //Branch kommentar
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
