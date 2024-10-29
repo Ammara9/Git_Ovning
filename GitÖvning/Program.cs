@@ -4,7 +4,7 @@ namespace GitÖvning
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            var builder = WebApplication.CreateBuilder(args); //ammara ändrar
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -28,7 +28,8 @@ namespace GitÖvning
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}"
+            );
 
             app.Run();
         }
