@@ -6,8 +6,11 @@ namespace GitÖvning
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var builder = WebApplication.CreateBuilder(args); //Kommentar
 =======
+=======
+>>>>>>> 0d35135d2e5fa027f11665c93fb75a4cf414ad53
 =======
 >>>>>>> 0d35135d2e5fa027f11665c93fb75a4cf414ad53
             Console.WriteLine("hej");
