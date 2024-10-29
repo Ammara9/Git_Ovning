@@ -13,8 +13,8 @@ namespace GitÖvning
             // Add services to the container.
             builderBob.Services.AddControllersWithViews();
 
-            var app = builderBob.Build();
-
+            var app = builder.Build();
+            //Branch kommentar
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
