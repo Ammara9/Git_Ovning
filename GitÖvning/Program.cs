@@ -6,15 +6,14 @@ namespace GitÖvning
         {
             Console.WriteLine("hej");
             Console.WriteLine("hej igen");
-            var builder = WebApplication.CreateBuilder(args);
->>>>>>> 3c37b5e2c3208556cbbb3f2f11ec3e180d684986
 
-            var builder = WebApplication.CreateBuilder(args); //ammara ändrar
+
+            var builderBob = WebApplication.CreateBuilder(args); //ammara ändrar
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builderBob.Services.AddControllersWithViews();
 
-            var app = builder.Build();
+            var app = builderBob.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
