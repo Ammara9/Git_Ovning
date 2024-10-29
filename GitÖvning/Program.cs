@@ -4,18 +4,12 @@ namespace GitÖvning
     {
         public static void Main(string[] args)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            var builder = WebApplication.CreateBuilder(args); //Kommentar
-=======
-=======
->>>>>>> 0d35135d2e5fa027f11665c93fb75a4cf414ad53
-=======
->>>>>>> 0d35135d2e5fa027f11665c93fb75a4cf414ad53
             Console.WriteLine("hej");
+            Console.WriteLine("hej igen");
             var builder = WebApplication.CreateBuilder(args);
 >>>>>>> 3c37b5e2c3208556cbbb3f2f11ec3e180d684986
+
+            var builder = WebApplication.CreateBuilder(args); //ammara ändrar
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -39,7 +33,8 @@ namespace GitÖvning
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}"
+            );
 
             app.Run();
         }
