@@ -4,7 +4,12 @@ namespace GitÖvning
     {
         public static void Main(string[] args)
         {
+<<<<<<< HEAD
             var builder = WebApplication.CreateBuilder(args); //Kommentar
+=======
+            Console.WriteLine("hej");
+            var builder = WebApplication.CreateBuilder(args);
+>>>>>>> 3c37b5e2c3208556cbbb3f2f11ec3e180d684986
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
