@@ -4,7 +4,7 @@ namespace GitÖvning
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("hej");
+            Console.WriteLine("hej"); //asda
 
             var builder = WebApplication.CreateBuilder(args); //ammara ändrar
 
